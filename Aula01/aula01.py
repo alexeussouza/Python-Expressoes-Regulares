@@ -8,7 +8,7 @@ import re  # usar esta importação para expressoes regulares
 # sub => substitui um valor dentro do texto
 # compile => compila expressoes regulares
 
-string = 'Este é um teste de expressões regulares, este teste pode ser util.'
+string = 'Este é um teste de expressões regulares é um teste de paciencia, mas este teste pode ser util.'
 
 print(re.search(r'teste', string)) # usar re.funcao(r'valor procurado', variavel)
 # retorna uma expressão Match informando onde a palavra inicia e onde termina dentro da string
@@ -18,4 +18,7 @@ print(re.findall(r'teste', string)) # usar re.funcao(r'valor procurado', variave
 
 print(re.sub(r'teste', 'ABCD', string, count=1)) # usar re.funcao(r'valor procurado', variavel)
 # cont substitui uma ocorrência da palavra teste por ABCD na string informada na expressão, 
+
+print(re.sub(r'teste', 'ABCD', string, count=2)) # usar re.funcao(r'valor procurado', variavel)
+# cont substitui duas ocorrência da palavra teste por ABCD na string informada na expressão, 
 

@@ -22,3 +22,11 @@ print(re.sub(r'teste', 'ABCD', string, count=1)) # usar re.funcao(r'valor procur
 print(re.sub(r'teste', 'ABCD', string, count=2)) # usar re.funcao(r'valor procurado', variavel)
 # cont substitui duas ocorrência da palavra teste por ABCD na string informada na expressão, 
 
+# Para evitar que o codigo seja compilado em todas chamadas da expressão regular 
+# podemos criar uma unica expressão e usar o codigo compilado nas expressões seguintes
+print('\nUsando Compile para otimizar o uso de expressões')
+regexp = re.compile(r'teste')
+print(regexp.search(string))
+print(regexp.findall(string))
+print(regexp.sub('DFG', string))
+print(regexp.sub('DFG', string, count=2))

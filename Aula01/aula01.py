@@ -16,9 +16,6 @@ print(re.search(r'teste', string)) # usar re.funcao(r'valor procurado', variavel
 print(re.findall(r'teste', string)) # usar re.funcao(r'valor procurado', variavel)
 # pesquisa a palavra teste na string e retorna uma lista com o resultado da expressão 
 
-print(re.sub(r'teste', 'ABCD', string, count=1)) # usar re.funcao(r'valor procurado', variavel)
-# cont substitui uma ocorrência da palavra teste por ABCD na string informada na expressão, 
-
 print(re.sub(r'teste', 'ABCD', string, count=2)) # usar re.funcao(r'valor procurado', variavel)
 # cont substitui duas ocorrência da palavra teste por ABCD na string informada na expressão, 
 

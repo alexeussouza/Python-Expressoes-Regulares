@@ -1,7 +1,7 @@
 # https://docs.python.org/3/library/re.html
 # https://docs.python.org./3/howto/regex.html#regex-howto
 
-import re
+import re  # usar esta importação para expressoes regulares
 
 # Findall => encontra todas ocorrencias do padrão pesquisado no texto
 # search => retorna o indice da primeira ocorrência encontrada no texto

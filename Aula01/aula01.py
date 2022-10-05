@@ -1,5 +1,5 @@
-# https://docs.python.org/3/library/re.html
-# https://docs.python.org./3/howto/regex.html#regex-howto
+# https://docs.python.org/3/library/re.html  => Documentação python sobre expressoes regulares
+# https://docs.python.org./3/howto/regex.html#regex-howto => Documentação howto sobre expressoes regulares
 
 import re  # usar esta importação para expressoes regulares
 

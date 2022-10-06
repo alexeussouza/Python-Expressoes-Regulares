@@ -17,6 +17,7 @@ pão de queijo.
 Não canso de ouvir a Maria:
 "Joooooooooãooooooo, o café tá prontinho aqui. Veeemm"!
 '''
+
 # | (Ou)
 print(re.findall(r'João|Maria', texto)) # seleciona João ou Maria na string Texto, Expressão case sensitive
 
@@ -25,3 +26,10 @@ print(re.findall(r'p.o', texto)) # seleciona palavras iniciadas com p e terminad
 
 # []  (conjunto de caracteres)
 print(re.findall(r'[Jj]oão', texto)) # seleciona as palavras João e joão 
+
+# []  (conjunto de caracteres)
+print(re.findall(r'[a-zA-Z]aria', texto)) # seleciona intevalo de a ate z minusculo e A ate Z maiusculo 
+
+# []  (conjunto de caracteres) e flag=re.I (I = Ignorecase)
+print(re.findall(r'maria', texto, flags=re.IGNORECASE)) # seleciona intevalo de a ate z minusculo e A ate Z maiusculo
+

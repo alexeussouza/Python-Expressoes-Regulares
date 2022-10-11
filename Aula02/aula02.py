@@ -12,8 +12,8 @@ Maria era o nome dela.
 
 Foi um ano excelente na vida de joão. Teve 5 filhos, todos adultos atualmente.
 maria, hoje sua esposa, ainda faz aquele café com pão de queijo nas tardes de
-domingo. Também né! Sendo a boa mineira que é, nunca esquece seu famoso
-pão de queijo.
+domingo. Também né! Sendo 5aria, a boa mineira que é, nunca esquece seu famoso
+1aria de pão de queijo. 7aria.
 Não canso de ouvir a Maria:
 "Joooooooooãooooooo, o café tá prontinho aqui. Veeemm"!
 '''
@@ -29,6 +29,9 @@ print(re.findall(r'[Jj]oão', texto)) # seleciona as palavras João e joão
 
 # []  (conjunto de caracteres)
 print(re.findall(r'[a-zA-Z]aria', texto)) # seleciona intevalo de a ate z minusculo e A ate Z maiusculo 
+
+# []  (conjunto de caracteres)
+print(re.findall(r'[a-zA-Z0-9]aria', texto)) # seleciona intevalo de a ate z minusculo e A ate Z maiusculo e zero até nove
 
 # []  (conjunto de caracteres) e flag=re.I (I = Ignorecase)
 print(re.findall(r'maria', texto, flags=re.IGNORECASE)) # seleciona intevalo de a ate z minusculo e A ate Z maiusculo
